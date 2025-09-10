@@ -1,0 +1,7 @@
+{
+  "intelephense.environment.includePaths": [
+    "/path/to/your/wordpress/wp-includes",
+    "/path/to/your/wordpress/wp-content"
+  ],
+  "intelephense.diagnostics.undefinedFunction": false
+}
