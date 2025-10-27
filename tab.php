@@ -15,7 +15,7 @@
         </div>
         <div class="tab-content" id="tab-3">
             <h1>Tab 3</h1>
-             adipisicing elit. Doloremque sequi perferendis Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsam autem iste cum maiores recusandae rem quam debitis quas! Veritatis alias odit commodi facilis ipsum culpa ea, tenetur fugiat suscipit illum, dicta voluptatem dolores expedita accusantium dolorum illo quibusdam nesciunt. Veritatis, tempore iure? Explicabo, vitae unde exercitationem architecto deleniti ad? perspiciatis, facere officiis labore quis voluptatem itaque quod dolorum explicabo dolor, et nam odio ad? Veritatis, culpa dolor vero nam cum non dolores eligendi sapiente ratione! Nisi quis expedita et facilis consequuntur optio qui totam quisquam debitis, nesciunt magni.
+             adipisicing elit. Doloremque sequi perferendis Lorem ipsum dolor sitt amet consectetur adipisicing elit. Possimus ipsam autem iste cum maiores recusandae rem quam debitis quas! Veritatis alias odit commodi facilis ipsum culpa ea, tenetur fugiat suscipit illum, dicta voluptatem dolores expedita accusantium dolorum illo quibusdam nesciunt. Veritatis, tempore iure? Explicabo, vitae unde exercitationem architecto deleniti ad? perspiciatis, facere officiis labore quis voluptatem itaque quod dolorum explicabo dolor, et nam odio ad? Veritatis, culpa dolor vero nam cum non dolores eligendi sapiente ratione! Nisi quis expedita et facilis consequuntur optio qui totam quisquam debitis, nesciunt magni.
         </div>
     </div>
 </div>
