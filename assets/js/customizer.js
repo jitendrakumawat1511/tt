@@ -154,24 +154,24 @@ jQuery(document).ready(function ($) {
 		var emailVal = $('#email').val();
 		var phoneVal = $('#phone').val();
 		var mynameVal = $('#myname').val();
-		if(emailVal == ''){
-			$('#email').attr('placeholder','please enter email').addClass('red-placeholder')
-			 isvalid = false;
-		}
-		
-		if(phoneVal == ''){
-			$('#myname').attr('placeholder','please enter Name').addClass('red-placeholder')
-			 isvalid = false;
+		if (emailVal == '') {
+			$('#email').attr('placeholder', 'please enter email').addClass('red-placeholder')
+			isvalid = false;
 		}
 
-		if(mynameVal == ''){
-			$('#phone').attr('placeholder','please enter phone').addClass('red-placeholder')
-			 isvalid = false;
+		if (phoneVal == '') {
+			$('#myname').attr('placeholder', 'please enter Name').addClass('red-placeholder')
+			isvalid = false;
 		}
 
-		if(isvalid){
-		alert('form is vaildate');
-		}else{
+		if (mynameVal == '') {
+			$('#phone').attr('placeholder', 'please enter phone').addClass('red-placeholder')
+			isvalid = false;
+		}
+
+		if (isvalid) {
+			alert('form is vaildate');
+		} else {
 			alert('form is not vaildate please fill all field');
 		}
 	})
@@ -179,32 +179,33 @@ jQuery(document).ready(function ($) {
 	//humburger
 	//$('#toggle-menu').hide()
 	var isopen = false;
-	$('#mobile-menu-toggle').click(function(e){
+	$('#mobile-menu-toggle').click(function (e) {
 		e.stopPropagation();
-	if(!isopen){
+		if (!isopen) {
 			$('#toggle-menu').animate({ left: 0 }, 400);
 			isopen = true;
-	}else if(isopen){
-		$('#toggle-menu').animate({ left: -350}, 400);
-		isopen = false;
-	}
+		} else if (isopen) {
+			$('#toggle-menu').animate({ left: -350 }, 400);
+			isopen = false;
+		}
 
 	})
-	$('body').click(function(){
-		$('#toggle-menu').animate({ left: -350}, 400);
+	$('body').click(function () {
+		$('#toggle-menu').animate({ left: -350 }, 400);
 		isopen = false;
 	})
 
-$('#back-to-top').hide();
-	$(window).scroll(function(){
-		if($(this).scrollTop() >500){
+	$('#back-to-top').hide();
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 500) {
 			$('#back-to-top').fadeIn();
-		}else{
+		} else {
 			$('#back-to-top').fadeOut();
 		}
-		
+
 	})
-	$('#back-to-top').click(function(){
+	$('#back-to-top').click(function () {
 		$(window).scrollTop(0)
 	});
 });
+
