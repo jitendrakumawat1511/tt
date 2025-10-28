@@ -190,10 +190,13 @@ jQuery(document).ready(function ($) {
 		}
 
 	})
-	$('body').click(function () {
+	$('body').click(function (e) {
+	// agar click #toggle-menu ke andar nahi hua hai tab hi close karo
+	if (!$(e.target).closest('#toggle-menu').length) {
 		$('#toggle-menu').animate({ left: -350 }, 400);
 		isopen = false;
-	})
+	}
+});
 
 	$('#back-to-top').hide();
 	$(window).scroll(function () {

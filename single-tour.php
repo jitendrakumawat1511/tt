@@ -33,7 +33,7 @@ get_header();
                 <div class="popular-card-tour-location">
                     <span> <i class="fa-solid fa-location-dot"></i></span>
                     <p><?php
-                        the_field('tour_location');
+                         echo get_field('tour_location');
                         ?></p>
                 </div>
             </div>
