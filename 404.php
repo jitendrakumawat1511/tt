@@ -52,7 +52,7 @@ get_header();
 					?>
 
 			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
+		</section><!-- .error-404 --->
 
 	</main><!-- #main -->
 
